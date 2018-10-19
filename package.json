@@ -1,0 +1,22 @@
+{
+  "test": "./node_modules/.bin/mocha **/*.spec.js",
+  "name": "circleci-serverless-intro",
+  "version": "1.0.0",
+  "description": "https://circleci.com/blog/deploying-a-serverless-application/",
+  "main": "handler.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha **/*.spec.js"
+  },
+  "keywords": [
+    "circleci",
+    "serverless",
+    "intro"
+  ],
+  "author": "eugene",
+  "license": "ISC"
+}
